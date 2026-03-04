@@ -1,0 +1,173 @@
+{
+  "data": {
+    "nodeTherapists": {
+      "__typename": "NodeTherapistConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTherapist",
+          "id": "therapist-nakamura",
+          "title": "Dr. Kevin Nakamura, PT, DPT, OCS",
+          "path": "/team/dr-kevin-nakamura",
+          "body": {
+            "processed": "<p>Dr. Kevin Nakamura is the founder and clinical director of Summit Physical Therapy. A board-certified orthopedic clinical specialist, he has spent over 15 years helping patients recover from complex musculoskeletal injuries and return to active, pain-free lives.</p><p>Dr. Nakamura's treatment philosophy centers on hands-on manual therapy combined with progressive therapeutic exercise. He is a firm believer in patient education, empowering every individual to understand their condition and take an active role in their recovery.</p><p>He is a Fellow of the American Academy of Orthopaedic Manual Physical Therapists and has completed advanced training in spinal manipulation, dry needling, and sports performance. When not treating patients, he serves as an adjunct faculty member at the local university's Doctor of Physical Therapy program.</p>",
+            "summary": "Dr. Kevin Nakamura is the founder and clinical director of Summit Physical Therapy. A board-certified orthopedic clinical specialist, he has spent over 15 years helping patients recover from complex m"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+            "alt": "Dr. Kevin Nakamura, physical therapist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT, OCS, FAAOMPT",
+          "specialty": "Orthopedic & Spinal Rehabilitation",
+          "certifications": [
+            "Board-Certified Orthopedic Clinical Specialist (OCS)",
+            "Fellow, AAOMPT",
+            "Certified Dry Needling Practitioner",
+            "Certified Strength & Conditioning Specialist (CSCS)"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, Emory University<br>Orthopedic Manual Therapy Fellowship, Evidence in Motion<br>Bachelor of Science in Kinesiology, University of Maryland</p>",
+            "summary": "Doctor of Physical Therapy, Emory UniversityOrthopedic Manual Therapy Fellowship, Evidence in MotionBachelor of Science in Kinesiology, University of Maryland"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeTherapist",
+          "id": "therapist-foster",
+          "title": "Dr. Amanda Foster, PT, DPT, SCS",
+          "path": "/team/dr-amanda-foster",
+          "body": {
+            "processed": "<p>Dr. Amanda Foster is Summit's sports rehabilitation specialist. A former Division I college soccer player, she understands firsthand the physical and emotional challenges of sports injury and the drive to get back in the game. This personal experience fuels her passion for helping athletes at every level reach their recovery goals.</p><p>Dr. Foster is a board-certified Sports Clinical Specialist with advanced training in ACL injury prevention, return-to-sport testing, and running gait analysis. She serves as the team physical therapist for two local high schools and has worked with athletes ranging from weekend warriors to professional competitors.</p><p>She is certified in Functional Movement Screening (FMS) and blood flow restriction training, incorporating the latest evidence-based tools into her sports rehabilitation programs.</p>",
+            "summary": "Dr. Amanda Foster is Summit's sports rehabilitation specialist. A former Division I college soccer player, she understands firsthand the physical and emotional challenges of sports injury and the driv"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            "alt": "Dr. Amanda Foster, sports physical therapist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT, SCS",
+          "specialty": "Sports Rehabilitation & Return-to-Sport",
+          "certifications": [
+            "Board-Certified Sports Clinical Specialist (SCS)",
+            "Certified Functional Movement Screen (FMS)",
+            "Blood Flow Restriction Training Certified",
+            "Running Gait Analysis Certified"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, University of Southern California<br>Sports Physical Therapy Residency, Duke University<br>Bachelor of Science in Exercise Science, University of North Carolina</p>",
+            "summary": "Doctor of Physical Therapy, University of Southern CaliforniaSports Physical Therapy Residency, Duke UniversityBachelor of Science in Exercise Science, University of North Carolina"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeTherapist",
+          "id": "therapist-hoffman",
+          "title": "Dr. Lisa Hoffman, PT, DPT",
+          "path": "/team/dr-lisa-hoffman",
+          "body": {
+            "processed": "<p>Dr. Lisa Hoffman specializes in vestibular rehabilitation and geriatric physical therapy. Certified through the American Institute of Balance, she has treated hundreds of patients with dizziness, vertigo, and balance disorders, helping them regain confidence and independence in their daily lives.</p><p>Dr. Hoffman is particularly passionate about fall prevention for older adults. She designs individualized balance and strengthening programs that reduce fall risk and improve quality of life. She also leads Summit's popular community balance class, a weekly group program open to adults of all ages.</p><p>Prior to joining Summit, Dr. Hoffman spent five years at a major academic medical center, where she developed the vestibular rehabilitation program for their neurology department. She remains active in clinical research on vestibular disorders.</p>",
+            "summary": "Dr. Lisa Hoffman specializes in vestibular rehabilitation and geriatric physical therapy. Certified through the American Institute of Balance, she has treated hundreds of patients with dizziness, vert"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+            "alt": "Dr. Lisa Hoffman, vestibular rehabilitation specialist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT",
+          "specialty": "Vestibular Rehabilitation & Geriatric Care",
+          "certifications": [
+            "Certified Vestibular Therapist (AIB)",
+            "Geriatric Clinical Specialist (GCS)",
+            "Certified Balance Assessment Provider"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, Northwestern University<br>Vestibular Rehabilitation Certification, American Institute of Balance<br>Bachelor of Science in Biology, University of Wisconsin</p>",
+            "summary": "Doctor of Physical Therapy, Northwestern UniversityVestibular Rehabilitation Certification, American Institute of BalanceBachelor of Science in Biology, University of Wisconsin"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

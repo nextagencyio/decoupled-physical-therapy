@@ -1,0 +1,651 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Summit Physical Therapy",
+          "path": "/homepage",
+          "heroTitle": "Move Better. Feel Better. Live Better.",
+          "heroSubtitle": "Summit Physical Therapy",
+          "heroDescription": {
+            "processed": "<p>Expert, hands-on physical therapy to help you recover from injury, manage pain, and return to the activities you love. Our licensed therapists create individualized treatment plans using evidence-based techniques in a supportive, encouraging environment.</p>",
+            "summary": "Expert, hands-on physical therapy to help you recover from injury, manage pain, and return to the activities you love. Our licensed therapists create individualized treatment plans using evidence-base"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+            "alt": "Physical therapist guiding a patient through rehabilitation exercises",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-patients",
+              "title": "",
+              "number": "8,500+",
+              "label": "Patients Treated"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-experience",
+              "title": "",
+              "number": "20+",
+              "label": "Years of Combined Experience"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-success",
+              "title": "",
+              "number": "94%",
+              "label": "Treatment Success Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "10",
+              "label": "Licensed Therapists"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Start Your Recovery Today",
+          "ctaDescription": {
+            "processed": "<p>Don't let pain or injury hold you back. Most patients can be seen within 24-48 hours of calling. In many states, you can start physical therapy without a doctor's referral through direct access. Contact us to learn more.</p>",
+            "summary": "Don't let pain or injury hold you back. Most patients can be seen within 24-48 hours of calling. In many states, you can start physical therapy without a doctor's referral through direct access. Conta"
+          },
+          "ctaPrimary": "Schedule an Evaluation",
+          "ctaSecondary": "Direct Access Info"
+        }
+      }
+    }
+  },
+  "/services/orthopedic-physical-therapy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-orthopedic",
+          "title": "Orthopedic Physical Therapy",
+          "path": "/services/orthopedic-physical-therapy",
+          "body": {
+            "processed": "<p>Orthopedic physical therapy focuses on the treatment of injuries, disorders, and conditions affecting the musculoskeletal system -- your bones, joints, muscles, tendons, and ligaments. Whether you're recovering from a fracture, dealing with chronic back pain, or rehabilitating after joint replacement surgery, our orthopedic specialists will help you regain strength, flexibility, and function.</p><h2>Conditions We Treat</h2><ul><li>Back and neck pain</li><li>Joint replacements (hip, knee, shoulder)</li><li>Rotator cuff injuries and shoulder impingement</li><li>ACL tears and meniscus injuries</li><li>Fractures and post-surgical rehabilitation</li><li>Tendinitis, bursitis, and repetitive strain injuries</li><li>Osteoarthritis and degenerative joint conditions</li></ul><h2>Our Approach</h2><p>Every patient receives a comprehensive initial evaluation including movement analysis, strength testing, and functional assessments. Your therapist then develops a customized treatment plan that may include manual therapy, therapeutic exercise, neuromuscular re-education, and modalities such as ultrasound, electrical stimulation, and dry needling.</p><h2>What Makes Us Different</h2><p>At Summit, you work one-on-one with your therapist for the entire session. We limit our caseload to ensure that every patient receives the individual attention they deserve. No aides, no group sessions, no being handed off to an assistant mid-treatment.</p>",
+            "summary": "Orthopedic physical therapy focuses on the treatment of injuries, disorders, and conditions affecting the musculoskeletal system -- your bones, joints, muscles, tendons, and ligaments. Whether you're "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Physical therapist performing manual therapy on a patient's shoulder",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Expert treatment for musculoskeletal injuries and conditions, from chronic pain to post-surgical rehabilitation.</p>",
+            "summary": "Expert treatment for musculoskeletal injuries and conditions, from chronic pain to post-surgical rehabilitation."
+          },
+          "sessionDuration": "45-60 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Orthopedic",
+              "name": "Orthopedic"
+            },
+            {
+              "id": "Post-Surgical",
+              "name": "Post-Surgical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/sports-rehabilitation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-sports",
+          "title": "Sports Rehabilitation",
+          "path": "/services/sports-rehabilitation",
+          "body": {
+            "processed": "<p>Our sports rehabilitation program is designed to help athletes of all levels recover from injury and return to their sport safely, quickly, and at full capacity. Our therapists understand the biomechanical demands of specific sports and tailor rehabilitation programs accordingly.</p><h2>Sports-Specific Programs</h2><ul><li>Return-to-run programs for runners and triathletes</li><li>Throwing programs for baseball and softball players</li><li>ACL injury prevention and rehabilitation for soccer, basketball, and skiing</li><li>Concussion management and return-to-play protocols</li><li>Golf swing analysis and injury prevention</li></ul><h2>Performance Enhancement</h2><p>Beyond injury rehabilitation, we offer performance enhancement programs to help athletes improve strength, agility, and movement efficiency. Using video motion analysis and sport-specific functional testing, we identify movement patterns that increase injury risk and design corrective exercise programs.</p><h2>Return-to-Sport Testing</h2><p>Before clearing an athlete to return to competition, we conduct objective, sport-specific testing to ensure they have regained adequate strength, stability, and confidence. Our return-to-sport criteria are based on the latest research in sports medicine.</p>",
+            "summary": "Our sports rehabilitation program is designed to help athletes of all levels recover from injury and return to their sport safely, quickly, and at full capacity. Our therapists understand the biomecha"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+            "alt": "Athlete performing rehabilitation exercises with a resistance band",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Sport-specific rehabilitation and performance programs to get athletes back in the game safely and at peak performance.</p>",
+            "summary": "Sport-specific rehabilitation and performance programs to get athletes back in the game safely and at peak performance."
+          },
+          "sessionDuration": "60 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Sports Rehabilitation",
+              "name": "Sports Rehabilitation"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/vestibular-rehabilitation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-vestibular",
+          "title": "Vestibular Rehabilitation",
+          "path": "/services/vestibular-rehabilitation",
+          "body": {
+            "processed": "<p>Vestibular rehabilitation is a specialized form of physical therapy designed to treat dizziness, vertigo, and balance disorders. These conditions are often caused by dysfunction of the vestibular system in the inner ear, which plays a critical role in maintaining balance and spatial orientation.</p><h2>Conditions We Treat</h2><ul><li>Benign Paroxysmal Positional Vertigo (BPPV)</li><li>Vestibular neuritis and labyrinthitis</li><li>Meniere's disease management</li><li>Post-concussion dizziness and balance problems</li><li>Unilateral vestibular hypofunction</li><li>Age-related balance decline and fall prevention</li></ul><h2>Treatment Techniques</h2><p>Treatment may include canalith repositioning maneuvers (for BPPV), gaze stabilization exercises, balance training, habituation exercises, and functional mobility training. Your therapist will use specialized equipment including infrared goggles for accurate diagnosis and treatment monitoring.</p><h2>Results You Can Expect</h2><p>Many patients experience significant improvement within 4-6 sessions. For BPPV, a single treatment session resolves symptoms in approximately 80% of cases. Our vestibular therapists are certified through the American Institute of Balance.</p>",
+            "summary": "Vestibular rehabilitation is a specialized form of physical therapy designed to treat dizziness, vertigo, and balance disorders. These conditions are often caused by dysfunction of the vestibular syst"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Patient performing balance exercises with therapist guidance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Specialized therapy for dizziness, vertigo, and balance disorders with high success rates and fast recovery.</p>",
+            "summary": "Specialized therapy for dizziness, vertigo, and balance disorders with high success rates and fast recovery."
+          },
+          "sessionDuration": "45 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Vestibular",
+              "name": "Vestibular"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-kevin-nakamura": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTherapist",
+          "id": "therapist-nakamura",
+          "title": "Dr. Kevin Nakamura, PT, DPT, OCS",
+          "path": "/team/dr-kevin-nakamura",
+          "body": {
+            "processed": "<p>Dr. Kevin Nakamura is the founder and clinical director of Summit Physical Therapy. A board-certified orthopedic clinical specialist, he has spent over 15 years helping patients recover from complex musculoskeletal injuries and return to active, pain-free lives.</p><p>Dr. Nakamura's treatment philosophy centers on hands-on manual therapy combined with progressive therapeutic exercise. He is a firm believer in patient education, empowering every individual to understand their condition and take an active role in their recovery.</p><p>He is a Fellow of the American Academy of Orthopaedic Manual Physical Therapists and has completed advanced training in spinal manipulation, dry needling, and sports performance. When not treating patients, he serves as an adjunct faculty member at the local university's Doctor of Physical Therapy program.</p>",
+            "summary": "Dr. Kevin Nakamura is the founder and clinical director of Summit Physical Therapy. A board-certified orthopedic clinical specialist, he has spent over 15 years helping patients recover from complex m"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+            "alt": "Dr. Kevin Nakamura, physical therapist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT, OCS, FAAOMPT",
+          "specialty": "Orthopedic & Spinal Rehabilitation",
+          "certifications": [
+            "Board-Certified Orthopedic Clinical Specialist (OCS)",
+            "Fellow, AAOMPT",
+            "Certified Dry Needling Practitioner",
+            "Certified Strength & Conditioning Specialist (CSCS)"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, Emory University<br>Orthopedic Manual Therapy Fellowship, Evidence in Motion<br>Bachelor of Science in Kinesiology, University of Maryland</p>",
+            "summary": "Doctor of Physical Therapy, Emory UniversityOrthopedic Manual Therapy Fellowship, Evidence in MotionBachelor of Science in Kinesiology, University of Maryland"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-amanda-foster": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTherapist",
+          "id": "therapist-foster",
+          "title": "Dr. Amanda Foster, PT, DPT, SCS",
+          "path": "/team/dr-amanda-foster",
+          "body": {
+            "processed": "<p>Dr. Amanda Foster is Summit's sports rehabilitation specialist. A former Division I college soccer player, she understands firsthand the physical and emotional challenges of sports injury and the drive to get back in the game. This personal experience fuels her passion for helping athletes at every level reach their recovery goals.</p><p>Dr. Foster is a board-certified Sports Clinical Specialist with advanced training in ACL injury prevention, return-to-sport testing, and running gait analysis. She serves as the team physical therapist for two local high schools and has worked with athletes ranging from weekend warriors to professional competitors.</p><p>She is certified in Functional Movement Screening (FMS) and blood flow restriction training, incorporating the latest evidence-based tools into her sports rehabilitation programs.</p>",
+            "summary": "Dr. Amanda Foster is Summit's sports rehabilitation specialist. A former Division I college soccer player, she understands firsthand the physical and emotional challenges of sports injury and the driv"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            "alt": "Dr. Amanda Foster, sports physical therapist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT, SCS",
+          "specialty": "Sports Rehabilitation & Return-to-Sport",
+          "certifications": [
+            "Board-Certified Sports Clinical Specialist (SCS)",
+            "Certified Functional Movement Screen (FMS)",
+            "Blood Flow Restriction Training Certified",
+            "Running Gait Analysis Certified"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, University of Southern California<br>Sports Physical Therapy Residency, Duke University<br>Bachelor of Science in Exercise Science, University of North Carolina</p>",
+            "summary": "Doctor of Physical Therapy, University of Southern CaliforniaSports Physical Therapy Residency, Duke UniversityBachelor of Science in Exercise Science, University of North Carolina"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/team/dr-lisa-hoffman": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTherapist",
+          "id": "therapist-hoffman",
+          "title": "Dr. Lisa Hoffman, PT, DPT",
+          "path": "/team/dr-lisa-hoffman",
+          "body": {
+            "processed": "<p>Dr. Lisa Hoffman specializes in vestibular rehabilitation and geriatric physical therapy. Certified through the American Institute of Balance, she has treated hundreds of patients with dizziness, vertigo, and balance disorders, helping them regain confidence and independence in their daily lives.</p><p>Dr. Hoffman is particularly passionate about fall prevention for older adults. She designs individualized balance and strengthening programs that reduce fall risk and improve quality of life. She also leads Summit's popular community balance class, a weekly group program open to adults of all ages.</p><p>Prior to joining Summit, Dr. Hoffman spent five years at a major academic medical center, where she developed the vestibular rehabilitation program for their neurology department. She remains active in clinical research on vestibular disorders.</p>",
+            "summary": "Dr. Lisa Hoffman specializes in vestibular rehabilitation and geriatric physical therapy. Certified through the American Institute of Balance, she has treated hundreds of patients with dizziness, vert"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+            "alt": "Dr. Lisa Hoffman, vestibular rehabilitation specialist, professional portrait",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "credentials": "PT, DPT",
+          "specialty": "Vestibular Rehabilitation & Geriatric Care",
+          "certifications": [
+            "Certified Vestibular Therapist (AIB)",
+            "Geriatric Clinical Specialist (GCS)",
+            "Certified Balance Assessment Provider"
+          ],
+          "education": {
+            "processed": "<p>Doctor of Physical Therapy, Northwestern University<br>Vestibular Rehabilitation Certification, American Institute of Balance<br>Bachelor of Science in Biology, University of Wisconsin</p>",
+            "summary": "Doctor of Physical Therapy, Northwestern UniversityVestibular Rehabilitation Certification, American Institute of BalanceBachelor of Science in Biology, University of Wisconsin"
+          },
+          "acceptingPatients": true,
+          "therapistRole": [
+            {
+              "id": "Physical Therapist",
+              "name": "Physical Therapist"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/conditions/low-back-pain": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCondition",
+          "id": "condition-low-back-pain",
+          "title": "Low Back Pain",
+          "path": "/conditions/low-back-pain",
+          "body": {
+            "processed": "<p>Low back pain is one of the most common reasons people seek physical therapy, affecting approximately 80% of adults at some point in their lives. While it can be debilitating, the vast majority of low back pain responds well to conservative treatment, including physical therapy, without the need for surgery or long-term medication use.</p><h2>Causes</h2><p>Low back pain can result from many factors, including:</p><ul><li>Muscle strain or ligament sprain from lifting, twisting, or sudden movement</li><li>Disc herniation or bulging disc pressing on spinal nerves</li><li>Degenerative disc disease and spinal stenosis</li><li>Poor posture and prolonged sitting</li><li>Sacroiliac joint dysfunction</li><li>Weakness in the core stabilizing muscles</li></ul><h2>How Physical Therapy Helps</h2><p>Your therapist will perform a thorough evaluation to identify the underlying cause of your pain and develop a targeted treatment plan. Treatment typically includes manual therapy to restore joint mobility, specific strengthening exercises for the core and spinal stabilizers, flexibility training, and education on posture, body mechanics, and ergonomics.</p><h2>Prevention</h2><p>Regular exercise, maintaining a healthy weight, practicing proper lifting technique, and taking breaks from prolonged sitting are the most effective strategies for preventing recurrent low back pain. Your therapist will design a home exercise program to help you maintain your progress long after your sessions are complete.</p>",
+            "summary": "Low back pain is one of the most common reasons people seek physical therapy, affecting approximately 80% of adults at some point in their lives. While it can be debilitating, the vast majority of low"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Person performing a core strengthening exercise for back pain relief",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The most common musculoskeletal complaint, affecting 80% of adults. Physical therapy is a highly effective first-line treatment.</p>",
+            "summary": "The most common musculoskeletal complaint, affecting 80% of adults. Physical therapy is a highly effective first-line treatment."
+          },
+          "symptoms": {
+            "processed": "<ul><li>Dull, aching pain in the lower back</li><li>Stiffness and limited range of motion</li><li>Pain that worsens with prolonged sitting or standing</li><li>Radiating pain, numbness, or tingling into the legs (sciatica)</li><li>Muscle spasms</li><li>Difficulty with bending, lifting, or twisting</li></ul>",
+            "summary": "Dull, aching pain in the lower backStiffness and limited range of motionPain that worsens with prolonged sitting or standingRadiating pain, numbness, or tingling into the legs (sciatica)Muscle spasmsD"
+          },
+          "recoveryTime": "4-8 weeks for most cases; chronic conditions may require 3-6 months",
+          "conditionCategory": [
+            {
+              "id": "Back & Spine",
+              "name": "Back & Spine"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/conditions/acl-tear": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCondition",
+          "id": "condition-acl-tear",
+          "title": "ACL Tear & Reconstruction Rehabilitation",
+          "path": "/conditions/acl-tear",
+          "body": {
+            "processed": "<p>The anterior cruciate ligament (ACL) is one of the key stabilizing ligaments of the knee, and tears are among the most common sports injuries. Whether you choose surgical reconstruction or conservative management, physical therapy is essential for a successful recovery and safe return to activity.</p><h2>Causes & Risk Factors</h2><p>ACL tears most commonly occur during sports that involve sudden stops, direction changes, or landing from jumps. Football, soccer, basketball, and skiing carry the highest risk. Female athletes are 2-8 times more likely to sustain an ACL tear than their male counterparts, likely due to differences in anatomy, muscle strength, and neuromuscular control.</p><h2>Rehabilitation Phases</h2><ul><li><strong>Phase 1 (Weeks 0-2):</strong> Reduce swelling, restore knee extension, begin gentle range-of-motion exercises</li><li><strong>Phase 2 (Weeks 2-6):</strong> Progressive strengthening, balance training, stationary cycling</li><li><strong>Phase 3 (Weeks 6-12):</strong> Advanced strengthening, agility exercises, sport-specific drills</li><li><strong>Phase 4 (Months 3-6):</strong> Running progression, plyometrics, return-to-sport preparation</li><li><strong>Phase 5 (Months 6-9+):</strong> Return-to-sport testing and sport-specific training</li></ul><h2>Return-to-Sport Criteria</h2><p>At Summit, we use objective, evidence-based criteria to determine when an athlete is ready to return to competition. This includes quadriceps strength testing, hop testing, functional movement assessment, and psychological readiness evaluation.</p>",
+            "summary": "The anterior cruciate ligament (ACL) is one of the key stabilizing ligaments of the knee, and tears are among the most common sports injuries. Whether you choose surgical reconstruction or conservativ"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Patient performing knee rehabilitation exercises",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Comprehensive rehabilitation for ACL tears, from post-surgical recovery to return-to-sport testing and clearance.</p>",
+            "summary": "Comprehensive rehabilitation for ACL tears, from post-surgical recovery to return-to-sport testing and clearance."
+          },
+          "symptoms": {
+            "processed": "<ul><li>A popping sensation at the time of injury</li><li>Rapid knee swelling within hours of injury</li><li>Significant pain and inability to bear weight</li><li>Feeling of knee instability or 'giving way'</li><li>Loss of range of motion</li></ul>",
+            "summary": "A popping sensation at the time of injuryRapid knee swelling within hours of injurySignificant pain and inability to bear weightFeeling of knee instability or 'giving way'Loss of range of motion"
+          },
+          "recoveryTime": "6-9 months post-surgery for return to sport; 9-12 months for full recovery",
+          "conditionCategory": [
+            {
+              "id": "Knee",
+              "name": "Knee"
+            },
+            {
+              "id": "Sports Injury",
+              "name": "Sports Injury"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/conditions/frozen-shoulder": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCondition",
+          "id": "condition-frozen-shoulder",
+          "title": "Frozen Shoulder (Adhesive Capsulitis)",
+          "path": "/conditions/frozen-shoulder",
+          "body": {
+            "processed": "<p>Frozen shoulder, medically known as adhesive capsulitis, is a condition characterized by progressive stiffness and pain in the shoulder joint. The capsule surrounding the shoulder joint thickens and tightens, significantly restricting movement. While frozen shoulder can be frustrating and slow to resolve, physical therapy is one of the most effective treatments for restoring mobility and reducing pain.</p><h2>Stages of Frozen Shoulder</h2><ul><li><strong>Freezing Stage (2-9 months):</strong> Gradual onset of shoulder pain that worsens over time. Range of motion begins to decrease.</li><li><strong>Frozen Stage (4-12 months):</strong> Pain may begin to diminish, but stiffness remains significant. Daily activities like dressing, reaching, and driving become difficult.</li><li><strong>Thawing Stage (5-24 months):</strong> Range of motion gradually improves. Full recovery may take 1-3 years without treatment.</li></ul><h2>Risk Factors</h2><p>Frozen shoulder most commonly affects people between 40 and 65 years of age and is more common in women. Risk factors include diabetes, thyroid disorders, cardiac disease, and prolonged immobilization following injury or surgery.</p><h2>How Physical Therapy Helps</h2><p>Physical therapy can significantly accelerate recovery and improve outcomes at every stage. Treatment includes gentle range-of-motion exercises, joint mobilization, stretching, and modalities to manage pain. Your therapist will also provide a home exercise program that is critical to maintaining progress between sessions.</p>",
+            "summary": "Frozen shoulder, medically known as adhesive capsulitis, is a condition characterized by progressive stiffness and pain in the shoulder joint. The capsule surrounding the shoulder joint thickens and t"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Physical therapist performing shoulder mobilization on a patient",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>A progressive condition causing shoulder stiffness and pain. Physical therapy accelerates recovery and restores mobility.</p>",
+            "summary": "A progressive condition causing shoulder stiffness and pain. Physical therapy accelerates recovery and restores mobility."
+          },
+          "symptoms": {
+            "processed": "<ul><li>Dull or aching pain in the outer shoulder and upper arm</li><li>Progressive loss of shoulder range of motion in all directions</li><li>Pain that is worse at night and may disrupt sleep</li><li>Difficulty reaching overhead, behind the back, or across the body</li><li>Inability to perform daily tasks like dressing, grooming, or driving</li></ul>",
+            "summary": "Dull or aching pain in the outer shoulder and upper armProgressive loss of shoulder range of motion in all directionsPain that is worse at night and may disrupt sleepDifficulty reaching overhead, behi"
+          },
+          "recoveryTime": "3-6 months with physical therapy (versus 1-3 years without treatment)",
+          "conditionCategory": [
+            {
+              "id": "Shoulder",
+              "name": "Shoulder"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Summit Physical Therapy",
+          "path": "/about",
+          "body": {
+            "processed": "<h2>Our Philosophy</h2><p>At Summit Physical Therapy, we believe in treating people, not just diagnoses. Every patient is unique, and every treatment plan should be too. We take the time to listen, thoroughly evaluate, and create individualized plans that address the root cause of your problem, not just the symptoms.</p><h2>One-on-One Care</h2><p>Unlike many clinics where patients are shared among multiple therapists and aides, at Summit you work directly with your licensed physical therapist for the entire session. This ensures continuity of care, better outcomes, and a stronger therapeutic relationship.</p><h2>Our Facility</h2><p>Our 4,500-square-foot clinic features a fully equipped exercise area with state-of-the-art strengthening and cardiovascular equipment, private treatment rooms for manual therapy and dry needling, and a dedicated balance and vestibular rehabilitation area. We also have an outdoor training space for sport-specific rehabilitation.</p><h2>Direct Access</h2><p>In our state, you can see a physical therapist without a doctor's referral through direct access. This means you can start treatment sooner, often within 24-48 hours of your first call. Early intervention leads to faster recovery and lower overall healthcare costs.</p>",
+            "summary": "Our PhilosophyAt Summit Physical Therapy, we believe in treating people, not just diagnoses. Every patient is unique, and every treatment plan should be too. We take the time to listen, thoroughly eva"
+          }
+        }
+      }
+    }
+  },
+  "/new-patients": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-new-patients",
+          "title": "New Patient Information",
+          "path": "/new-patients",
+          "body": {
+            "processed": "<h2>Your First Visit</h2><p>Your initial evaluation takes approximately 60 minutes. During this visit, your therapist will:</p><ul><li>Review your medical history and current symptoms</li><li>Perform a comprehensive physical examination</li><li>Assess your strength, flexibility, balance, and movement patterns</li><li>Discuss your goals for treatment</li><li>Develop a personalized plan of care</li><li>Begin treatment on day one</li></ul><h2>What to Bring</h2><ul><li>Photo ID and insurance card</li><li>Referral or prescription from your doctor (if you have one -- it is not required for direct access)</li><li>Any imaging reports (X-ray, MRI) or surgical records related to your condition</li><li>Comfortable clothing that allows access to the area being treated</li><li>Athletic shoes for exercise</li></ul><h2>Insurance & Payment</h2><p>We are in-network with most major insurance plans, including Medicare, Blue Cross Blue Shield, Aetna, Cigna, United Healthcare, and most workers' compensation plans. Our front office team will verify your benefits and explain any copay, deductible, or authorization requirements before your first visit.</p><h2>Cancellation Policy</h2><p>We kindly request 24 hours' notice for cancellations or rescheduling. This allows us to offer the appointment time to another patient in need.</p>",
+            "summary": "Your First VisitYour initial evaluation takes approximately 60 minutes. During this visit, your therapist will:Review your medical history and current symptomsPerform a comprehensive physical examinat"
+          }
+        }
+      }
+    }
+  }
+}

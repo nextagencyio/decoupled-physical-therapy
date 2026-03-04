@@ -1,0 +1,354 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, features, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string", "description": "Main headline in the hero section" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string", "description": "Secondary text below the hero title" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text", "description": "Longer descriptive text for the hero section" },
+        { "id": "features_title", "label": "Features Section Title", "type": "string" },
+        { "id": "features_subtitle", "label": "Features Section Subtitle", "type": "string" },
+        { "id": "features_items", "label": "Feature Items", "type": "paragraph(feature_item)[]", "description": "List of feature highlight blocks" },
+        { "id": "cta_title", "label": "CTA Section Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA Text", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA Text", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Physical therapy service offerings",
+      "body": true,
+      "fields": [
+        { "id": "duration", "label": "Session Duration", "type": "string", "description": "Typical duration of the service session" },
+        { "id": "image", "label": "Service Image", "type": "image", "description": "Featured image for the service" }
+      ]
+    },
+    {
+      "bundle": "therapist",
+      "label": "Therapist",
+      "description": "Physical therapist profiles",
+      "body": true,
+      "fields": [
+        { "id": "specialty", "label": "Specialty", "type": "string", "description": "Primary area of specialization" },
+        { "id": "email", "label": "Email", "type": "string", "description": "Contact email address" },
+        { "id": "phone", "label": "Phone", "type": "string", "description": "Contact phone number" },
+        { "id": "photo", "label": "Photo", "type": "image", "description": "Professional headshot" },
+        { "id": "education", "label": "Education", "type": "text", "description": "Educational background and degrees" },
+        { "id": "certifications", "label": "Certifications", "type": "string", "description": "Professional certifications held" }
+      ]
+    },
+    {
+      "bundle": "condition",
+      "label": "Condition",
+      "description": "Medical conditions treated at the practice",
+      "body": true,
+      "fields": [
+        { "id": "symptoms", "label": "Symptoms", "type": "text", "description": "Common symptoms of this condition" },
+        { "id": "treatment_approach", "label": "Treatment Approach", "type": "string", "description": "Overview of how this condition is treated" },
+        { "id": "image", "label": "Condition Image", "type": "image", "description": "Illustrative image for the condition" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "description": "Individual feature highlight with icon, title, and description",
+      "fields": [
+        { "id": "icon", "label": "Icon", "type": "string", "description": "Lucide icon name for the feature" },
+        { "id": "title", "label": "Title", "type": "string!", "description": "Feature title (required)" },
+        { "id": "description", "label": "Description", "type": "text", "description": "Detailed description of the feature" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "feature-personalized",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "user-check",
+        "title": "Personalized Treatment Plans",
+        "description": "Every patient receives a customized recovery program designed around their specific goals, lifestyle, and condition."
+      }
+    },
+    {
+      "id": "feature-evidence",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "clipboard-check",
+        "title": "Evidence-Based Methods",
+        "description": "Our therapists use the latest research-backed techniques to ensure the most effective outcomes for your recovery."
+      }
+    },
+    {
+      "id": "feature-manual",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "hand",
+        "title": "Hands-On Manual Therapy",
+        "description": "Expert manual therapy techniques to reduce pain, improve mobility, and accelerate your healing process."
+      }
+    },
+    {
+      "id": "feature-sports",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "trophy",
+        "title": "Sports Rehabilitation",
+        "description": "Specialized programs to get athletes back in the game safely, with sport-specific training and conditioning."
+      }
+    },
+    {
+      "id": "feature-equipment",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "dumbbell",
+        "title": "State-of-the-Art Equipment",
+        "description": "Our clinic features the latest rehabilitation technology and exercise equipment for optimal recovery."
+      }
+    },
+    {
+      "id": "feature-insurance",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "shield-check",
+        "title": "Insurance Accepted",
+        "description": "We work with most major insurance providers and offer flexible payment plans to make care accessible."
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Peak Performance Physical Therapy",
+        "hero_title": "Move Better. Feel Stronger. Live More.",
+        "hero_subtitle": "Expert Physical Therapy for Every Body",
+        "hero_description": "<p>At Peak Performance Physical Therapy, we combine personalized care with evidence-based techniques to help you recover from injury, manage pain, and achieve your movement goals.</p>",
+        "features_title": "Why Choose Peak Performance?",
+        "features_subtitle": "Comprehensive physical therapy services tailored to your unique needs",
+        "features_items": [
+          "@feature-personalized",
+          "@feature-evidence",
+          "@feature-manual",
+          "@feature-sports",
+          "@feature-equipment",
+          "@feature-insurance"
+        ],
+        "cta_title": "Ready to Start Your Recovery?",
+        "cta_description": "<p>Schedule your initial evaluation today and take the first step toward a pain-free, active life. Our team is ready to create a personalized treatment plan just for you.</p>",
+        "cta_primary": "Book Evaluation",
+        "cta_secondary": "View Services"
+      }
+    },
+    {
+      "id": "service-orthopedic",
+      "type": "node.service",
+      "path": "/services/orthopedic-rehabilitation",
+      "values": {
+        "title": "Orthopedic Rehabilitation",
+        "body": "<p>Our orthopedic rehabilitation program is designed for patients recovering from musculoskeletal injuries, surgeries, and chronic conditions. Whether you've had a joint replacement, rotator cuff repair, or ACL reconstruction, our therapists will guide you through every stage of recovery.</p><h2>What to Expect</h2><p>Your treatment plan will include a combination of manual therapy, therapeutic exercise, and modalities tailored to your specific condition and goals. We focus on restoring range of motion, building strength, and returning you to your daily activities.</p><h2>Conditions We Treat</h2><ul><li>Post-surgical rehabilitation (joint replacement, arthroscopy, fracture repair)</li><li>Tendonitis and bursitis</li><li>Sprains and strains</li><li>Degenerative joint disease</li><li>Chronic pain management</li></ul>",
+        "duration": "45-60 minutes",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+          "alt": "Physical therapist working with patient on orthopedic rehabilitation",
+          "title": "Orthopedic Rehabilitation"
+        }
+      }
+    },
+    {
+      "id": "service-sports",
+      "type": "node.service",
+      "path": "/services/sports-medicine",
+      "values": {
+        "title": "Sports Medicine & Performance",
+        "body": "<p>Our sports medicine program serves athletes of all levels, from weekend warriors to competitive professionals. We understand the demands of athletic performance and design programs that not only rehabilitate injuries but also enhance athletic capability.</p><h2>Our Approach</h2><p>Using biomechanical analysis and sport-specific assessment, we identify areas of weakness and imbalance that may lead to injury. Our therapists create programs that address these deficits while building the strength and endurance needed for your sport.</p><h2>Services Include</h2><ul><li>ACL and sports injury rehabilitation</li><li>Concussion management</li><li>Running gait analysis</li><li>Return-to-sport testing</li><li>Performance enhancement training</li></ul>",
+        "duration": "60 minutes",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+          "alt": "Athlete undergoing sports rehabilitation therapy",
+          "title": "Sports Medicine and Performance"
+        }
+      }
+    },
+    {
+      "id": "service-spine",
+      "type": "node.service",
+      "path": "/services/spine-care",
+      "values": {
+        "title": "Spine & Neck Care",
+        "body": "<p>Back and neck pain affect millions of people every year. Our spine care program uses a comprehensive approach to diagnose, treat, and prevent spinal conditions, helping you find lasting relief without surgery.</p><h2>Treatment Methods</h2><p>Our therapists are trained in the McKenzie Method, spinal manipulation, and advanced stabilization techniques. We combine these with therapeutic exercise and postural education to address the root cause of your pain.</p><h2>Conditions We Treat</h2><ul><li>Herniated and bulging discs</li><li>Sciatica and radiculopathy</li><li>Spinal stenosis</li><li>Neck pain and whiplash</li><li>Postural dysfunction</li></ul>",
+        "duration": "45 minutes",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+          "alt": "Therapist treating patient for spine and neck condition",
+          "title": "Spine and Neck Care"
+        }
+      }
+    },
+    {
+      "id": "service-balance",
+      "type": "node.service",
+      "path": "/services/balance-fall-prevention",
+      "values": {
+        "title": "Balance & Fall Prevention",
+        "body": "<p>Falls are a leading cause of injury, especially among older adults. Our balance and fall prevention program uses specialized assessments and progressive training to improve your stability, confidence, and independence.</p><h2>Program Components</h2><p>We begin with a comprehensive balance assessment to identify specific risk factors. Your personalized program will include vestibular rehabilitation, strength training, flexibility exercises, and functional mobility training.</p><h2>Who Benefits</h2><ul><li>Older adults concerned about falling</li><li>Patients with vestibular disorders</li><li>Post-stroke rehabilitation</li><li>Individuals with neuropathy</li><li>Anyone experiencing dizziness or vertigo</li></ul>",
+        "duration": "45 minutes",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+          "alt": "Senior patient working on balance exercises with therapist",
+          "title": "Balance and Fall Prevention"
+        }
+      }
+    },
+    {
+      "id": "therapist-sarah",
+      "type": "node.therapist",
+      "path": "/therapists/sarah-mitchell",
+      "values": {
+        "title": "Dr. Sarah Mitchell, PT, DPT, OCS",
+        "body": "<p>Dr. Sarah Mitchell is the founder and lead physical therapist at Peak Performance Physical Therapy. With over 15 years of clinical experience, she specializes in orthopedic rehabilitation and has helped thousands of patients return to the activities they love.</p><p>Sarah believes in a patient-centered approach, taking the time to listen to each patient's concerns and goals before developing a customized treatment plan. She is passionate about continuing education and regularly attends national conferences to stay current with the latest evidence-based practices.</p><p>Outside of the clinic, Sarah enjoys trail running, yoga, and volunteering with local community health programs.</p>",
+        "specialty": "Orthopedic Rehabilitation",
+        "email": "sarah.mitchell@peakpt.com",
+        "phone": "(555) 234-5678",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+          "alt": "Dr. Sarah Mitchell, physical therapist",
+          "title": "Dr. Sarah Mitchell"
+        },
+        "education": "<p><strong>Doctor of Physical Therapy (DPT)</strong> - University of Southern California<br/><strong>Bachelor of Science in Kinesiology</strong> - UCLA</p>",
+        "certifications": "Board-Certified Orthopedic Clinical Specialist (OCS)"
+      }
+    },
+    {
+      "id": "therapist-marcus",
+      "type": "node.therapist",
+      "path": "/therapists/marcus-chen",
+      "values": {
+        "title": "Dr. Marcus Chen, PT, DPT, SCS",
+        "body": "<p>Dr. Marcus Chen brings a unique perspective to physical therapy with his background as a former collegiate athlete. His passion for sports medicine drives him to help athletes of all levels recover from injuries and return to peak performance.</p><p>Marcus specializes in biomechanical analysis and uses cutting-edge technology to assess movement patterns and design targeted rehabilitation programs. He has worked with professional sports teams and Olympic athletes, bringing that expertise to every patient he treats.</p><p>When he's not treating patients, Marcus coaches youth soccer and enjoys mountain biking in the local trails.</p>",
+        "specialty": "Sports Medicine & Rehabilitation",
+        "email": "marcus.chen@peakpt.com",
+        "phone": "(555) 234-5679",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80",
+          "alt": "Dr. Marcus Chen, sports medicine physical therapist",
+          "title": "Dr. Marcus Chen"
+        },
+        "education": "<p><strong>Doctor of Physical Therapy (DPT)</strong> - Emory University<br/><strong>Bachelor of Science in Exercise Science</strong> - University of Michigan</p>",
+        "certifications": "Sports Clinical Specialist (SCS)"
+      }
+    },
+    {
+      "id": "therapist-elena",
+      "type": "node.therapist",
+      "path": "/therapists/elena-rodriguez",
+      "values": {
+        "title": "Dr. Elena Rodriguez, PT, DPT, GCS",
+        "body": "<p>Dr. Elena Rodriguez is a geriatric care specialist dedicated to helping older adults maintain their independence and quality of life. With a warm and patient demeanor, she creates a supportive environment where patients feel comfortable and motivated.</p><p>Elena has extensive experience in fall prevention, balance rehabilitation, and post-surgical recovery for older adults. She takes a holistic approach to care, considering each patient's overall health, home environment, and personal goals.</p><p>In her free time, Elena enjoys gardening, cooking traditional family recipes, and spending time with her two rescue dogs.</p>",
+        "specialty": "Geriatric & Balance Rehabilitation",
+        "email": "elena.rodriguez@peakpt.com",
+        "phone": "(555) 234-5680",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+          "alt": "Dr. Elena Rodriguez, geriatric physical therapist",
+          "title": "Dr. Elena Rodriguez"
+        },
+        "education": "<p><strong>Doctor of Physical Therapy (DPT)</strong> - Boston University<br/><strong>Bachelor of Science in Biology</strong> - University of Florida</p>",
+        "certifications": "Geriatric Clinical Specialist (GCS)"
+      }
+    },
+    {
+      "id": "condition-back-pain",
+      "type": "node.condition",
+      "path": "/conditions/lower-back-pain",
+      "values": {
+        "title": "Lower Back Pain",
+        "body": "<p>Lower back pain is one of the most common reasons people seek physical therapy. It can range from a dull, constant ache to a sudden, sharp pain that limits movement. At Peak Performance, we use a comprehensive approach to identify the root cause of your pain and develop an effective treatment plan.</p><h2>Our Treatment Approach</h2><p>We begin with a thorough evaluation of your spine, posture, and movement patterns. Based on our findings, we create a personalized program that may include manual therapy, core stabilization exercises, flexibility training, and ergonomic education. Our goal is not just to relieve your current pain, but to give you the tools to prevent future episodes.</p>",
+        "symptoms": "<ul><li>Persistent aching or stiffness along the spine</li><li>Sharp, localized pain in the lower back</li><li>Pain that radiates into the buttocks or legs</li><li>Difficulty standing up straight or walking</li><li>Pain that worsens with prolonged sitting or standing</li></ul>",
+        "treatment_approach": "Manual therapy, core stabilization, and postural education",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+          "alt": "Person experiencing lower back pain during exercise",
+          "title": "Lower Back Pain"
+        }
+      }
+    },
+    {
+      "id": "condition-knee-injury",
+      "type": "node.condition",
+      "path": "/conditions/knee-injuries",
+      "values": {
+        "title": "Knee Injuries & ACL Recovery",
+        "body": "<p>Knee injuries are among the most common issues we treat, particularly ACL tears, meniscus tears, and patellofemoral pain syndrome. Whether you're an athlete recovering from surgery or someone dealing with chronic knee pain, our specialized programs will help you regain strength and confidence.</p><h2>ACL Reconstruction Rehabilitation</h2><p>Our ACL rehab program follows a progressive, evidence-based protocol that typically spans 6-9 months. We guide you through each phase, from initial healing and range of motion recovery to advanced strengthening and sport-specific training. Our return-to-sport testing ensures you're truly ready to get back in the game.</p>",
+        "symptoms": "<ul><li>Swelling and instability in the knee</li><li>Pain during walking, running, or climbing stairs</li><li>Popping or clicking sensations</li><li>Difficulty bending or straightening the knee</li><li>Giving way or buckling during activity</li></ul>",
+        "treatment_approach": "Progressive rehabilitation with sport-specific return-to-play protocols",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&q=80",
+          "alt": "Physical therapist examining patient knee injury",
+          "title": "Knee Injuries and ACL Recovery"
+        }
+      }
+    },
+    {
+      "id": "condition-shoulder",
+      "type": "node.condition",
+      "path": "/conditions/shoulder-pain",
+      "values": {
+        "title": "Shoulder Pain & Rotator Cuff",
+        "body": "<p>Shoulder pain can significantly impact your daily life, making it difficult to reach overhead, sleep comfortably, or perform routine tasks. Our shoulder rehabilitation program addresses a wide range of conditions, from rotator cuff injuries to frozen shoulder.</p><h2>Comprehensive Shoulder Care</h2><p>We use a combination of manual therapy techniques, including joint mobilization and soft tissue work, along with progressive strengthening exercises. Our therapists are experienced in both conservative management and post-surgical rehabilitation for shoulder conditions.</p>",
+        "symptoms": "<ul><li>Pain when reaching overhead or behind the back</li><li>Night pain that disrupts sleep</li><li>Weakness when lifting or carrying objects</li><li>Stiffness and loss of range of motion</li><li>Catching or clicking with shoulder movement</li></ul>",
+        "treatment_approach": "Manual therapy combined with progressive rotator cuff strengthening",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+          "alt": "Therapist treating shoulder pain with manual therapy",
+          "title": "Shoulder Pain and Rotator Cuff"
+        }
+      }
+    },
+    {
+      "id": "condition-neck",
+      "type": "node.condition",
+      "path": "/conditions/neck-pain-headaches",
+      "values": {
+        "title": "Neck Pain & Headaches",
+        "body": "<p>Neck pain and cervicogenic headaches are increasingly common in our technology-driven world. Hours spent at desks and looking at screens contribute to postural dysfunction that can cause persistent neck pain and debilitating headaches. Our specialized cervical spine program provides lasting relief.</p><h2>Understanding Your Neck Pain</h2><p>Many headaches actually originate from the cervical spine and surrounding muscles. Through careful evaluation, we determine whether your headaches are related to neck dysfunction and create a targeted treatment plan that addresses the underlying cause rather than just managing symptoms.</p>",
+        "symptoms": "<ul><li>Persistent neck stiffness or soreness</li><li>Headaches starting at the base of the skull</li><li>Pain radiating into the shoulders or arms</li><li>Numbness or tingling in the hands</li><li>Difficulty turning the head or looking up</li></ul>",
+        "treatment_approach": "Cervical mobilization, postural correction, and ergonomic training",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?w=800&q=80",
+          "alt": "Person with neck pain being treated by physical therapist",
+          "title": "Neck Pain and Headaches"
+        }
+      }
+    },
+    {
+      "id": "about-page",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Peak Performance Physical Therapy",
+        "body": "<p>Peak Performance Physical Therapy was founded in 2010 with a simple mission: to provide exceptional, personalized physical therapy care that helps people move better and live fuller lives.</p><h2>Our Philosophy</h2><p>We believe that every patient deserves individualized attention and a treatment plan designed specifically for their needs. Our therapists take the time to listen, evaluate thoroughly, and educate patients about their conditions so they can take an active role in their recovery.</p><h2>Our Facility</h2><p>Our modern clinic features private treatment rooms, a fully equipped exercise gym, and the latest rehabilitation technology. We've created a warm, welcoming environment where patients feel comfortable and motivated to work toward their goals.</p><h2>Community Commitment</h2><p>We're proud to be an active member of our community. We regularly participate in local health fairs, provide injury prevention workshops for local sports teams, and offer pro bono care to those in need.</p>"
+      }
+    },
+    {
+      "id": "privacy-page",
+      "type": "node.page",
+      "path": "/privacy-policy",
+      "values": {
+        "title": "Privacy Policy",
+        "body": "<p>At Peak Performance Physical Therapy, we take your privacy seriously. This policy outlines how we collect, use, and protect your personal and health information.</p><h2>Information We Collect</h2><p>We collect information necessary to provide you with quality physical therapy care, including your name, contact information, medical history, insurance details, and treatment records.</p><h2>How We Use Your Information</h2><p>Your information is used solely for the purpose of providing and improving your care, processing insurance claims, and communicating with you about your treatment. We never sell or share your personal information with third parties for marketing purposes.</p><h2>HIPAA Compliance</h2><p>We are fully compliant with the Health Insurance Portability and Accountability Act (HIPAA). Your medical records and personal health information are stored securely and accessed only by authorized personnel involved in your care.</p><h2>Contact Us</h2><p>If you have questions about our privacy practices or wish to exercise your rights regarding your personal information, please contact our office at (555) 234-5678 or email privacy@peakpt.com.</p>"
+      }
+    }
+  ]
+}

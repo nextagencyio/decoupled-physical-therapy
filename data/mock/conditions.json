@@ -1,0 +1,166 @@
+{
+  "data": {
+    "nodeConditions": {
+      "__typename": "NodeConditionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCondition",
+          "id": "condition-low-back-pain",
+          "title": "Low Back Pain",
+          "path": "/conditions/low-back-pain",
+          "body": {
+            "processed": "<p>Low back pain is one of the most common reasons people seek physical therapy, affecting approximately 80% of adults at some point in their lives. While it can be debilitating, the vast majority of low back pain responds well to conservative treatment, including physical therapy, without the need for surgery or long-term medication use.</p><h2>Causes</h2><p>Low back pain can result from many factors, including:</p><ul><li>Muscle strain or ligament sprain from lifting, twisting, or sudden movement</li><li>Disc herniation or bulging disc pressing on spinal nerves</li><li>Degenerative disc disease and spinal stenosis</li><li>Poor posture and prolonged sitting</li><li>Sacroiliac joint dysfunction</li><li>Weakness in the core stabilizing muscles</li></ul><h2>How Physical Therapy Helps</h2><p>Your therapist will perform a thorough evaluation to identify the underlying cause of your pain and develop a targeted treatment plan. Treatment typically includes manual therapy to restore joint mobility, specific strengthening exercises for the core and spinal stabilizers, flexibility training, and education on posture, body mechanics, and ergonomics.</p><h2>Prevention</h2><p>Regular exercise, maintaining a healthy weight, practicing proper lifting technique, and taking breaks from prolonged sitting are the most effective strategies for preventing recurrent low back pain. Your therapist will design a home exercise program to help you maintain your progress long after your sessions are complete.</p>",
+            "summary": "Low back pain is one of the most common reasons people seek physical therapy, affecting approximately 80% of adults at some point in their lives. While it can be debilitating, the vast majority of low"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Person performing a core strengthening exercise for back pain relief",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>The most common musculoskeletal complaint, affecting 80% of adults. Physical therapy is a highly effective first-line treatment.</p>",
+            "summary": "The most common musculoskeletal complaint, affecting 80% of adults. Physical therapy is a highly effective first-line treatment."
+          },
+          "symptoms": {
+            "processed": "<ul><li>Dull, aching pain in the lower back</li><li>Stiffness and limited range of motion</li><li>Pain that worsens with prolonged sitting or standing</li><li>Radiating pain, numbness, or tingling into the legs (sciatica)</li><li>Muscle spasms</li><li>Difficulty with bending, lifting, or twisting</li></ul>",
+            "summary": "Dull, aching pain in the lower backStiffness and limited range of motionPain that worsens with prolonged sitting or standingRadiating pain, numbness, or tingling into the legs (sciatica)Muscle spasmsD"
+          },
+          "recoveryTime": "4-8 weeks for most cases; chronic conditions may require 3-6 months",
+          "conditionCategory": [
+            {
+              "id": "Back & Spine",
+              "name": "Back & Spine"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeCondition",
+          "id": "condition-acl-tear",
+          "title": "ACL Tear & Reconstruction Rehabilitation",
+          "path": "/conditions/acl-tear",
+          "body": {
+            "processed": "<p>The anterior cruciate ligament (ACL) is one of the key stabilizing ligaments of the knee, and tears are among the most common sports injuries. Whether you choose surgical reconstruction or conservative management, physical therapy is essential for a successful recovery and safe return to activity.</p><h2>Causes & Risk Factors</h2><p>ACL tears most commonly occur during sports that involve sudden stops, direction changes, or landing from jumps. Football, soccer, basketball, and skiing carry the highest risk. Female athletes are 2-8 times more likely to sustain an ACL tear than their male counterparts, likely due to differences in anatomy, muscle strength, and neuromuscular control.</p><h2>Rehabilitation Phases</h2><ul><li><strong>Phase 1 (Weeks 0-2):</strong> Reduce swelling, restore knee extension, begin gentle range-of-motion exercises</li><li><strong>Phase 2 (Weeks 2-6):</strong> Progressive strengthening, balance training, stationary cycling</li><li><strong>Phase 3 (Weeks 6-12):</strong> Advanced strengthening, agility exercises, sport-specific drills</li><li><strong>Phase 4 (Months 3-6):</strong> Running progression, plyometrics, return-to-sport preparation</li><li><strong>Phase 5 (Months 6-9+):</strong> Return-to-sport testing and sport-specific training</li></ul><h2>Return-to-Sport Criteria</h2><p>At Summit, we use objective, evidence-based criteria to determine when an athlete is ready to return to competition. This includes quadriceps strength testing, hop testing, functional movement assessment, and psychological readiness evaluation.</p>",
+            "summary": "The anterior cruciate ligament (ACL) is one of the key stabilizing ligaments of the knee, and tears are among the most common sports injuries. Whether you choose surgical reconstruction or conservativ"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Patient performing knee rehabilitation exercises",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Comprehensive rehabilitation for ACL tears, from post-surgical recovery to return-to-sport testing and clearance.</p>",
+            "summary": "Comprehensive rehabilitation for ACL tears, from post-surgical recovery to return-to-sport testing and clearance."
+          },
+          "symptoms": {
+            "processed": "<ul><li>A popping sensation at the time of injury</li><li>Rapid knee swelling within hours of injury</li><li>Significant pain and inability to bear weight</li><li>Feeling of knee instability or 'giving way'</li><li>Loss of range of motion</li></ul>",
+            "summary": "A popping sensation at the time of injuryRapid knee swelling within hours of injurySignificant pain and inability to bear weightFeeling of knee instability or 'giving way'Loss of range of motion"
+          },
+          "recoveryTime": "6-9 months post-surgery for return to sport; 9-12 months for full recovery",
+          "conditionCategory": [
+            {
+              "id": "Knee",
+              "name": "Knee"
+            },
+            {
+              "id": "Sports Injury",
+              "name": "Sports Injury"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeCondition",
+          "id": "condition-frozen-shoulder",
+          "title": "Frozen Shoulder (Adhesive Capsulitis)",
+          "path": "/conditions/frozen-shoulder",
+          "body": {
+            "processed": "<p>Frozen shoulder, medically known as adhesive capsulitis, is a condition characterized by progressive stiffness and pain in the shoulder joint. The capsule surrounding the shoulder joint thickens and tightens, significantly restricting movement. While frozen shoulder can be frustrating and slow to resolve, physical therapy is one of the most effective treatments for restoring mobility and reducing pain.</p><h2>Stages of Frozen Shoulder</h2><ul><li><strong>Freezing Stage (2-9 months):</strong> Gradual onset of shoulder pain that worsens over time. Range of motion begins to decrease.</li><li><strong>Frozen Stage (4-12 months):</strong> Pain may begin to diminish, but stiffness remains significant. Daily activities like dressing, reaching, and driving become difficult.</li><li><strong>Thawing Stage (5-24 months):</strong> Range of motion gradually improves. Full recovery may take 1-3 years without treatment.</li></ul><h2>Risk Factors</h2><p>Frozen shoulder most commonly affects people between 40 and 65 years of age and is more common in women. Risk factors include diabetes, thyroid disorders, cardiac disease, and prolonged immobilization following injury or surgery.</p><h2>How Physical Therapy Helps</h2><p>Physical therapy can significantly accelerate recovery and improve outcomes at every stage. Treatment includes gentle range-of-motion exercises, joint mobilization, stretching, and modalities to manage pain. Your therapist will also provide a home exercise program that is critical to maintaining progress between sessions.</p>",
+            "summary": "Frozen shoulder, medically known as adhesive capsulitis, is a condition characterized by progressive stiffness and pain in the shoulder joint. The capsule surrounding the shoulder joint thickens and t"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Physical therapist performing shoulder mobilization on a patient",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>A progressive condition causing shoulder stiffness and pain. Physical therapy accelerates recovery and restores mobility.</p>",
+            "summary": "A progressive condition causing shoulder stiffness and pain. Physical therapy accelerates recovery and restores mobility."
+          },
+          "symptoms": {
+            "processed": "<ul><li>Dull or aching pain in the outer shoulder and upper arm</li><li>Progressive loss of shoulder range of motion in all directions</li><li>Pain that is worse at night and may disrupt sleep</li><li>Difficulty reaching overhead, behind the back, or across the body</li><li>Inability to perform daily tasks like dressing, grooming, or driving</li></ul>",
+            "summary": "Dull or aching pain in the outer shoulder and upper armProgressive loss of shoulder range of motion in all directionsPain that is worse at night and may disrupt sleepDifficulty reaching overhead, behi"
+          },
+          "recoveryTime": "3-6 months with physical therapy (versus 1-3 years without treatment)",
+          "conditionCategory": [
+            {
+              "id": "Shoulder",
+              "name": "Shoulder"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

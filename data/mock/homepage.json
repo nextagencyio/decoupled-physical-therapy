@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Summit Physical Therapy",
+          "path": "/homepage",
+          "heroTitle": "Move Better. Feel Better. Live Better.",
+          "heroSubtitle": "Summit Physical Therapy",
+          "heroDescription": {
+            "processed": "<p>Expert, hands-on physical therapy to help you recover from injury, manage pain, and return to the activities you love. Our licensed therapists create individualized treatment plans using evidence-based techniques in a supportive, encouraging environment.</p>",
+            "summary": "Expert, hands-on physical therapy to help you recover from injury, manage pain, and return to the activities you love. Our licensed therapists create individualized treatment plans using evidence-base"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+            "alt": "Physical therapist guiding a patient through rehabilitation exercises",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-patients",
+              "title": "",
+              "number": "8,500+",
+              "label": "Patients Treated"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-experience",
+              "title": "",
+              "number": "20+",
+              "label": "Years of Combined Experience"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-success",
+              "title": "",
+              "number": "94%",
+              "label": "Treatment Success Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "10",
+              "label": "Licensed Therapists"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Start Your Recovery Today",
+          "ctaDescription": {
+            "processed": "<p>Don't let pain or injury hold you back. Most patients can be seen within 24-48 hours of calling. In many states, you can start physical therapy without a doctor's referral through direct access. Contact us to learn more.</p>",
+            "summary": "Don't let pain or injury hold you back. Most patients can be seen within 24-48 hours of calling. In many states, you can start physical therapy without a doctor's referral through direct access. Conta"
+          },
+          "ctaPrimary": "Schedule an Evaluation",
+          "ctaSecondary": "Direct Access Info"
+        }
+      ]
+    }
+  }
+}

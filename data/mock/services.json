@@ -1,0 +1,157 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-orthopedic",
+          "title": "Orthopedic Physical Therapy",
+          "path": "/services/orthopedic-physical-therapy",
+          "body": {
+            "processed": "<p>Orthopedic physical therapy focuses on the treatment of injuries, disorders, and conditions affecting the musculoskeletal system -- your bones, joints, muscles, tendons, and ligaments. Whether you're recovering from a fracture, dealing with chronic back pain, or rehabilitating after joint replacement surgery, our orthopedic specialists will help you regain strength, flexibility, and function.</p><h2>Conditions We Treat</h2><ul><li>Back and neck pain</li><li>Joint replacements (hip, knee, shoulder)</li><li>Rotator cuff injuries and shoulder impingement</li><li>ACL tears and meniscus injuries</li><li>Fractures and post-surgical rehabilitation</li><li>Tendinitis, bursitis, and repetitive strain injuries</li><li>Osteoarthritis and degenerative joint conditions</li></ul><h2>Our Approach</h2><p>Every patient receives a comprehensive initial evaluation including movement analysis, strength testing, and functional assessments. Your therapist then develops a customized treatment plan that may include manual therapy, therapeutic exercise, neuromuscular re-education, and modalities such as ultrasound, electrical stimulation, and dry needling.</p><h2>What Makes Us Different</h2><p>At Summit, you work one-on-one with your therapist for the entire session. We limit our caseload to ensure that every patient receives the individual attention they deserve. No aides, no group sessions, no being handed off to an assistant mid-treatment.</p>",
+            "summary": "Orthopedic physical therapy focuses on the treatment of injuries, disorders, and conditions affecting the musculoskeletal system -- your bones, joints, muscles, tendons, and ligaments. Whether you're "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Physical therapist performing manual therapy on a patient's shoulder",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Expert treatment for musculoskeletal injuries and conditions, from chronic pain to post-surgical rehabilitation.</p>",
+            "summary": "Expert treatment for musculoskeletal injuries and conditions, from chronic pain to post-surgical rehabilitation."
+          },
+          "sessionDuration": "45-60 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Orthopedic",
+              "name": "Orthopedic"
+            },
+            {
+              "id": "Post-Surgical",
+              "name": "Post-Surgical"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-sports",
+          "title": "Sports Rehabilitation",
+          "path": "/services/sports-rehabilitation",
+          "body": {
+            "processed": "<p>Our sports rehabilitation program is designed to help athletes of all levels recover from injury and return to their sport safely, quickly, and at full capacity. Our therapists understand the biomechanical demands of specific sports and tailor rehabilitation programs accordingly.</p><h2>Sports-Specific Programs</h2><ul><li>Return-to-run programs for runners and triathletes</li><li>Throwing programs for baseball and softball players</li><li>ACL injury prevention and rehabilitation for soccer, basketball, and skiing</li><li>Concussion management and return-to-play protocols</li><li>Golf swing analysis and injury prevention</li></ul><h2>Performance Enhancement</h2><p>Beyond injury rehabilitation, we offer performance enhancement programs to help athletes improve strength, agility, and movement efficiency. Using video motion analysis and sport-specific functional testing, we identify movement patterns that increase injury risk and design corrective exercise programs.</p><h2>Return-to-Sport Testing</h2><p>Before clearing an athlete to return to competition, we conduct objective, sport-specific testing to ensure they have regained adequate strength, stability, and confidence. Our return-to-sport criteria are based on the latest research in sports medicine.</p>",
+            "summary": "Our sports rehabilitation program is designed to help athletes of all levels recover from injury and return to their sport safely, quickly, and at full capacity. Our therapists understand the biomecha"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+            "alt": "Athlete performing rehabilitation exercises with a resistance band",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Sport-specific rehabilitation and performance programs to get athletes back in the game safely and at peak performance.</p>",
+            "summary": "Sport-specific rehabilitation and performance programs to get athletes back in the game safely and at peak performance."
+          },
+          "sessionDuration": "60 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Sports Rehabilitation",
+              "name": "Sports Rehabilitation"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-vestibular",
+          "title": "Vestibular Rehabilitation",
+          "path": "/services/vestibular-rehabilitation",
+          "body": {
+            "processed": "<p>Vestibular rehabilitation is a specialized form of physical therapy designed to treat dizziness, vertigo, and balance disorders. These conditions are often caused by dysfunction of the vestibular system in the inner ear, which plays a critical role in maintaining balance and spatial orientation.</p><h2>Conditions We Treat</h2><ul><li>Benign Paroxysmal Positional Vertigo (BPPV)</li><li>Vestibular neuritis and labyrinthitis</li><li>Meniere's disease management</li><li>Post-concussion dizziness and balance problems</li><li>Unilateral vestibular hypofunction</li><li>Age-related balance decline and fall prevention</li></ul><h2>Treatment Techniques</h2><p>Treatment may include canalith repositioning maneuvers (for BPPV), gaze stabilization exercises, balance training, habituation exercises, and functional mobility training. Your therapist will use specialized equipment including infrared goggles for accurate diagnosis and treatment monitoring.</p><h2>Results You Can Expect</h2><p>Many patients experience significant improvement within 4-6 sessions. For BPPV, a single treatment session resolves symptoms in approximately 80% of cases. Our vestibular therapists are certified through the American Institute of Balance.</p>",
+            "summary": "Vestibular rehabilitation is a specialized form of physical therapy designed to treat dizziness, vertigo, and balance disorders. These conditions are often caused by dysfunction of the vestibular syst"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Patient performing balance exercises with therapist guidance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Specialized therapy for dizziness, vertigo, and balance disorders with high success rates and fast recovery.</p>",
+            "summary": "Specialized therapy for dizziness, vertigo, and balance disorders with high success rates and fast recovery."
+          },
+          "sessionDuration": "45 minutes",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Vestibular",
+              "name": "Vestibular"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
