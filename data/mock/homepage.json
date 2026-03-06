@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-patients",
               "title": "",
-              "number": "8,500+",
+              "number": "8,500+", "value": "8,500+",
               "label": "Patients Treated"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-experience",
               "title": "",
-              "number": "20+",
+              "number": "20+", "value": "20+",
               "label": "Years of Combined Experience"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-success",
               "title": "",
-              "number": "94%",
+              "number": "94%", "value": "94%",
               "label": "Treatment Success Rate"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-team",
               "title": "",
-              "number": "10",
+              "number": "10", "value": "10",
               "label": "Licensed Therapists"
             }
           ],
