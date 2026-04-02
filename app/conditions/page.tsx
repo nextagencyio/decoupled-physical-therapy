@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_CONDITION_TEASERS } from '@/lib/queries'
 import { ConditionData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getConditions() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<ConditionData>({
-      query: GET_CONDITION_TEASERS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_CONDITION_TEASERS, { first: 50 })
     return data?.nodeConditions?.nodes || []
   } catch (error) {
     console.error('Error fetching conditions:', error)
