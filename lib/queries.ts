@@ -116,12 +116,19 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
-        heroImage { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
-        featuredItemsTitle
+        heroDescription { processed }
+        featuresTitle
+        featuresSubtitle
+        featuresItems {
+          ... on ParagraphFeatureItem {
+            id
+            title
+            description { processed }
+            icon
+          }
+        }
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -135,6 +142,7 @@ export const GET_NODE_BY_PATH = gql`
       ... on RouteInternal {
         entity {
           ... on NodePage {
+            __typename
             id
             title
             body {
@@ -142,6 +150,7 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeService {
+            __typename
             id
             title
             body {
@@ -162,6 +171,7 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeTherapist {
+            __typename
             id
             title
             body {
@@ -182,6 +192,7 @@ export const GET_NODE_BY_PATH = gql`
             certifications
           }
           ... on NodeCondition {
+            __typename
             id
             title
             body {
@@ -199,6 +210,7 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeHomepage {
+            __typename
             id
             title
             heroTitle

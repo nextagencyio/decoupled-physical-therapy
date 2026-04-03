@@ -31,8 +31,8 @@ export default function ConditionCard({ item }: ConditionCardProps) {
       </div>
 
       <div className="p-6">
-          {(item as any).recoveryTime && (
-            <p className="text-sm text-teal-700 font-medium mb-2">{(item as any).recoveryTime}</p>
+          {(item as any).treatmentApproach && (
+            <p className="text-sm text-teal-700 font-medium mb-2">{(item as any).treatmentApproach}</p>
           )}
         <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-700 transition-colors">
           {item.title}

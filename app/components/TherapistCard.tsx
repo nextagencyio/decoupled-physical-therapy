@@ -14,13 +14,13 @@ export default function TherapistCard({ item }: TherapistCardProps) {
       className="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden"
     >
       <div className="relative h-48 bg-gradient-to-br from-teal-600 to-teal-800">
-        {(item as any).image?.url ? (
+        {(item as any).photo?.url ? (
           <ResponsiveImage
-            src={(item as any).image.url}
-            alt={(item as any).image.alt || item.title}
+            src={(item as any).photo.url}
+            alt={(item as any).photo.alt || item.title}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
-            variations={(item as any).image.variations}
+            variations={(item as any).photo.variations}
             targetWidth={400}
           />
         ) : (
@@ -31,8 +31,8 @@ export default function TherapistCard({ item }: TherapistCardProps) {
       </div>
 
       <div className="p-6">
-          {(item as any).credentials && (
-            <p className="text-sm text-teal-700 font-medium mb-2">{(item as any).credentials}</p>
+          {(item as any).specialty && (
+            <p className="text-sm text-teal-700 font-medium mb-2">{(item as any).specialty}</p>
           )}
         <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-700 transition-colors">
           {item.title}

@@ -14,8 +14,8 @@ const defaultStats = [
 ]
 
 export default function StatsSection({ homepageContent }: StatsSectionProps) {
-  const rawStats = (homepageContent as any)?.stats || (homepageContent as any)?.statsItems || []
-  const stats = rawStats.length > 0 ? rawStats : defaultStats
+  // Stats are not a separate content type - use defaults
+  const stats = defaultStats
 
   return (
     <section className="relative py-20 bg-white -mt-14 md:-mt-16">

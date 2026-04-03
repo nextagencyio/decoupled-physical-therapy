@@ -118,6 +118,7 @@ export interface DrupalPage extends DrupalNode {
 }
 
 export interface DrupalHomepage extends DrupalNode {
+  __typename?: string
   heroTitle?: string
   heroSubtitle?: string
   heroDescription?: {
@@ -125,7 +126,7 @@ export interface DrupalHomepage extends DrupalNode {
   }
   featuresTitle?: string
   featuresSubtitle?: string
-  featuresItems?: DrupalFeature[]
+  featuresItems?: DrupalFeatureItem[]
   ctaTitle?: string
   ctaDescription?: {
     processed: string
@@ -134,7 +135,7 @@ export interface DrupalHomepage extends DrupalNode {
   ctaSecondary?: string
 }
 
-export interface DrupalFeature {
+export interface DrupalFeatureItem {
   id: string
   title: string
   description?: {
